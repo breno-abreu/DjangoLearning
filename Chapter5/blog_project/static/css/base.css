@@ -45,4 +45,20 @@ header h1 a {
 .post-entry h2 a:hover {
     color: red;
 }
+
+.button-link {
+    display: inline-block; /* Makes it behave like a button within inline content */
+    padding: 10px 20px; /* Adjust padding for desired button size */
+    text-align: center; /* Center text within the button */
+    text-decoration: none; /* Remove underline from link */
+    color: #fff; /* Text color */
+    background-color: #007bff; /* Button background color */
+    border: none; /* Remove default link border */
+    border-radius: 4px; /* Add square corners */
+    cursor: pointer; /* Indicate clickable element */
+}
+  
+.button-link:hover { /* Styles on hover */
+    background-color: #0069d9; /* Change background color slightly on hover */
+}
     
